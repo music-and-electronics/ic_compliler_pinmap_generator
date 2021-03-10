@@ -1,0 +1,7 @@
+set_pin_physical_constraints  -pin_name {vin[0]} -layers {M4} -width 0.05 -depth 0.05 -side 1 -offset 5
+set_pin_physical_constraints  -pin_name {vin[1]} -layers {M4} -width 0.05 -depth 0.05 -side 1 -offset 8
+set_pin_physical_constraints  -pin_name {vin[2]} -layers {M4} -width 0.05 -depth 0.05 -side 1 -offset 11
+set_pin_physical_constraints  -pin_name {clk} -layers {M3} -width 0.05 -depth 0.05 -side 2 -offset 5
+set_pin_physical_constraints  -pin_name {vout[0]} -layers {M4} -width 0.05 -depth 0.05 -side 3 -offset 5
+set_pin_physical_constraints  -pin_name {vout[1]} -layers {M4} -width 0.05 -depth 0.05 -side 3 -offset 8
+set_pin_physical_constraints  -pin_name {vout[2]} -layers {M4} -width 0.05 -depth 0.05 -side 3 -offset 11
